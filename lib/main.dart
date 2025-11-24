@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_onboarding_widgets/onboarding_widgets/onboarding_slider/onboarding_slider_screen.dart';
+import 'package:flutter_onboarding_widgets/onboarding_widgets/concentric-transition/onboarding_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: MyHome(),
+      home: OnboardingExample(),
     );
   }
 }

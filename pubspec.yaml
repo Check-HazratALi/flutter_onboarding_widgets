@@ -21,6 +21,7 @@ dependencies:
 
   #onboarding_slider_screen
   flutter_onboarding_slider: ^1.0.11
+  concentric_transition: ^1.0.3
 
 
 
