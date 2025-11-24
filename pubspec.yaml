@@ -42,6 +42,9 @@ dependencies:
   #onboarding_animation
   onboarding_animation: ^0.0.3
 
+  #introduction_slider
+  introduction_slider: ^2.0.1
+
 
 
 dev_dependencies:
