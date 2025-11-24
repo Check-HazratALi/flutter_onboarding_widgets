@@ -24,7 +24,12 @@ dependencies:
 
   #concentric_transition_xoxo
   concentric_transition: ^1.0.3
+
+  #animated_introduction
   animated_introduction: ^1.0.4
+
+  #gone_board
+  gone_board: ^1.0.5
 
 
 
