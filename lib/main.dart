@@ -1,19 +1,19 @@
-import 'package:flutter/material.dart';
-import 'onboarding_widgets/intro_slider/intro_screen_default.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_onboarding_widgets/onboarding_widgets/onboarding_slider/onboarding_slider_screen.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home:  IntroScreenDefault(),// IntroScreenCustomConfig(),// IntroScreenCustomLayout(),
+    return const CupertinoApp(
       debugShowCheckedModeBanner: false,
+      home: MyHome(),
     );
   }
 }
-
-
 
