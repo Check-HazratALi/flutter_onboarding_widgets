@@ -15,7 +15,11 @@ dependencies:
   
   #introduction_screen.dart
   introduction_screen: ^4.0.0
+
+  #intro_slider_screens
   intro_slider: ^4.2.5
+
+  
 
 dev_dependencies:
   flutter_test:
