@@ -31,6 +31,10 @@ dependencies:
   #gone_board
   gone_board: ^1.0.5
 
+  #flutter_carousel_intro
+  flutter_carousel_intro: ^1.0.11
+  flutter_svg: ^2.2.3
+
 
 
 
