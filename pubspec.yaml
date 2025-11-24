@@ -35,6 +35,12 @@ dependencies:
   flutter_carousel_intro: ^1.0.11
   flutter_svg: ^2.2.3
 
+  #animated_page_reveal
+  animated_page_reveal: ^1.0.0
+  google_fonts: ^6.3.2
+
+  #onboarding_animation
+  onboarding_animation: ^0.0.3
 
 
 
@@ -50,3 +56,12 @@ flutter:
 
   assets:
     - assets/
+    - assets/images/
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat_regular.ttf
+        - asset: assets/fonts/montserrat_bold.ttf
+          weight: 700
